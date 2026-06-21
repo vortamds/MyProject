@@ -1,8 +1,12 @@
 #include <iostream>
 
+void printName() {
+  std::cout << "MIlad\n";
+}
+
 int main() {
 
-  std::cout << "Bye!\n";
+  printName();
 
   return 0;
 }
