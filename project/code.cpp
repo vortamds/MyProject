@@ -1,8 +1,6 @@
-#include <iostream>
+//code.cpp
+#include "code.h"
 
-int main() {
-
-  std::cout << "Hi!\n";
-
-  return 0;
+int add (int x , int y) {
+  return x + y;
 }

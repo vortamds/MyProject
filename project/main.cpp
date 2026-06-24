@@ -1,12 +1,9 @@
+//main.cpp
 #include <iostream>
-
-void printName() {
-  std::cout << "MIlad\n";
-}
+#include "code.h"
 
 int main() {
 
-  printName();
-
+  std::cout << "The sum of 3 And 4 is: " << add(3 , 4) << '\n';
   return 0;
 }
